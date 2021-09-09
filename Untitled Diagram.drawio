@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T11:56:34.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="ZRWL9Ndgwd-JH8VyW-Ko" version="15.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-09-09T13:07:07.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="hFsXEwT2lcst1DcLJv_6" version="15.0.3" type="github" pages="6">
   <diagram id="6Z2epARSxKz0ps8wFmp6" name="Page-1">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -659,6 +659,29 @@
         </mxCell>
         <mxCell id="Y093Bb4H-RRKq2MnaBRq-6" value="地图定制入口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Y093Bb4H-RRKq2MnaBRq-1">
           <mxGeometry x="510" y="390" width="131.5" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="x7FGz9AHZ1O-zFubCkCj" name="Page-6">
+    <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="IGM7XArye1vN5fVzjItP-0" />
+        <mxCell id="IGM7XArye1vN5fVzjItP-1" parent="IGM7XArye1vN5fVzjItP-0" />
+        <mxCell id="IGM7XArye1vN5fVzjItP-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#FFFFFF;" vertex="1" parent="IGM7XArye1vN5fVzjItP-1">
+          <mxGeometry x="70" y="30" width="680" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="IGM7XArye1vN5fVzjItP-3" value="查 询 框" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;shadow=0;fillColor=#3399FF;fontColor=#FFFFFF;" vertex="1" parent="IGM7XArye1vN5fVzjItP-1">
+          <mxGeometry x="260" y="74" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IGM7XArye1vN5fVzjItP-5" value="页面切换选框" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#FFFFFF;fillColor=#3399FF;" vertex="1" parent="IGM7XArye1vN5fVzjItP-1">
+          <mxGeometry x="700" y="219" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IGM7XArye1vN5fVzjItP-6" value="目&amp;nbsp; &amp;nbsp;录&amp;nbsp; 栏" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#FFFFFF;fillColor=#3399FF;" vertex="1" parent="IGM7XArye1vN5fVzjItP-1">
+          <mxGeometry x="130" y="124" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IGM7XArye1vN5fVzjItP-7" value="图组轮播区" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#FFFFFF;fillColor=#3399FF;" vertex="1" parent="IGM7XArye1vN5fVzjItP-1">
+          <mxGeometry x="130" y="194" width="550" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
