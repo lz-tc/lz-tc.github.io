@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T13:27:41.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Vru15H5pbrRBWpXE717a" version="15.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-09-09T13:29:29.590Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="TyTCy7_BA3Zxue89m5O5" version="15.0.3" type="github" pages="7">
   <diagram id="6Z2epARSxKz0ps8wFmp6" name="Page-1">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -698,28 +698,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LmzMak35nMe8TMKOolUd-5" value="&lt;span&gt;鼠标单击/滚轮滑动&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFFFFF;arcSize=50;" vertex="1" parent="LmzMak35nMe8TMKOolUd-1">
-          <mxGeometry x="160" y="190" width="166" height="40" as="geometry" />
+          <mxGeometry x="60" y="180" width="166" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LmzMak35nMe8TMKOolUd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="LmzMak35nMe8TMKOolUd-1" source="LmzMak35nMe8TMKOolUd-6" target="LmzMak35nMe8TMKOolUd-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LmzMak35nMe8TMKOolUd-6" value="目录浏览" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="LmzMak35nMe8TMKOolUd-1">
-          <mxGeometry x="160" y="300" width="166" height="30" as="geometry" />
+          <mxGeometry x="60" y="290" width="166" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LmzMak35nMe8TMKOolUd-8" value="地图浏览" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="LmzMak35nMe8TMKOolUd-1">
-          <mxGeometry x="280" y="450" width="170" height="30" as="geometry" />
+          <mxGeometry x="180" y="440" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LmzMak35nMe8TMKOolUd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="LmzMak35nMe8TMKOolUd-1" source="LmzMak35nMe8TMKOolUd-10" target="LmzMak35nMe8TMKOolUd-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LmzMak35nMe8TMKOolUd-10" value="&lt;span&gt;鼠标单击&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFFFFF;arcSize=50;" vertex="1" parent="LmzMak35nMe8TMKOolUd-1">
-          <mxGeometry x="414" y="190" width="166" height="40" as="geometry" />
+          <mxGeometry x="314" y="180" width="166" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LmzMak35nMe8TMKOolUd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="LmzMak35nMe8TMKOolUd-1" source="LmzMak35nMe8TMKOolUd-11" target="LmzMak35nMe8TMKOolUd-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LmzMak35nMe8TMKOolUd-11" value="图组浏览" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="LmzMak35nMe8TMKOolUd-1">
-          <mxGeometry x="414" y="300" width="166" height="30" as="geometry" />
+          <mxGeometry x="314" y="290" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LmzMak35nMe8TMKOolUd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="LmzMak35nMe8TMKOolUd-1" source="LmzMak35nMe8TMKOolUd-17" target="LmzMak35nMe8TMKOolUd-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LmzMak35nMe8TMKOolUd-17" value="&lt;span&gt;鼠标单击&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFFFFF;arcSize=50;" vertex="1" parent="LmzMak35nMe8TMKOolUd-1">
+          <mxGeometry x="560" y="180" width="166" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LmzMak35nMe8TMKOolUd-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="LmzMak35nMe8TMKOolUd-1" source="LmzMak35nMe8TMKOolUd-18" target="LmzMak35nMe8TMKOolUd-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LmzMak35nMe8TMKOolUd-18" value="地图定制入口" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="LmzMak35nMe8TMKOolUd-1">
+          <mxGeometry x="560" y="290" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LmzMak35nMe8TMKOolUd-20" value="地图定制功能页面" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="LmzMak35nMe8TMKOolUd-1">
+          <mxGeometry x="560" y="440" width="166" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
