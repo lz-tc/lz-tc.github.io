@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T13:14:52.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="M2bsIW8zbOWjgwmL27SK" version="15.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-09T13:21:42.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="UWMri15i6jgBEWHsa7-I" version="15.0.3" type="github" pages="7">
   <diagram id="6Z2epARSxKz0ps8wFmp6" name="Page-1">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -664,7 +664,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="x7FGz9AHZ1O-zFubCkCj" name="Page-6">
-    <mxGraphModel dx="782" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IGM7XArye1vN5fVzjItP-0" />
         <mxCell id="IGM7XArye1vN5fVzjItP-1" parent="IGM7XArye1vN5fVzjItP-0" />
@@ -685,6 +685,17 @@
         </mxCell>
         <mxCell id="IGM7XArye1vN5fVzjItP-8" value="地图定制" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=18;fontColor=#FFFFFF;fillColor=#3399FF;" vertex="1" parent="IGM7XArye1vN5fVzjItP-1">
           <mxGeometry x="500" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LqOBiC4S0dzokr_YwM5C" name="地图浏览流程">
+    <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="LmzMak35nMe8TMKOolUd-0" />
+        <mxCell id="LmzMak35nMe8TMKOolUd-1" parent="LmzMak35nMe8TMKOolUd-0" />
+        <mxCell id="LmzMak35nMe8TMKOolUd-3" value="鼠标单击/滚轮滑动" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;shadow=0;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="LmzMak35nMe8TMKOolUd-1">
+          <mxGeometry x="340" y="160" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
