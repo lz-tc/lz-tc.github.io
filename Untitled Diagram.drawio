@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T06:52:14.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="8qP4QoDU7zhnU2rHec_f" version="15.1.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-09-10T06:57:43.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="PJZaxiarotDJpPmNgVdn" version="15.1.4" type="github" pages="13">
   <diagram id="6Z2epARSxKz0ps8wFmp6" name="Page-1">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1084,7 +1084,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="euL_m9o_5gxTAHCYq552" name="QGIS">
-    <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PF_QCsPjGbQAtjXFkU9D-0" />
         <mxCell id="PF_QCsPjGbQAtjXFkU9D-1" parent="PF_QCsPjGbQAtjXFkU9D-0" />
@@ -1105,6 +1105,29 @@
         </mxCell>
         <mxCell id="PF_QCsPjGbQAtjXFkU9D-7" value="执行按钮" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#2A378B;fontColor=#FFFFFF;" vertex="1" parent="PF_QCsPjGbQAtjXFkU9D-1">
           <mxGeometry x="323.75" y="310" width="102.5" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HXwIJyZuC_cfWIPpzN6H" name="逻辑设计QGIS">
+    <mxGraphModel dx="782" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Fq8KNFBBhNKILIYQIslJ-0" />
+        <mxCell id="Fq8KNFBBhNKILIYQIslJ-1" parent="Fq8KNFBBhNKILIYQIslJ-0" />
+        <mxCell id="Fq8KNFBBhNKILIYQIslJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;fontColor=#000000;" edge="1" parent="Fq8KNFBBhNKILIYQIslJ-1" source="Fq8KNFBBhNKILIYQIslJ-2" target="Fq8KNFBBhNKILIYQIslJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fq8KNFBBhNKILIYQIslJ-2" value="点击输入文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#FFFFFF;arcSize=50;" vertex="1" parent="Fq8KNFBBhNKILIYQIslJ-1">
+          <mxGeometry x="200" y="230" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fq8KNFBBhNKILIYQIslJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;fontColor=#000000;" edge="1" parent="Fq8KNFBBhNKILIYQIslJ-1" source="Fq8KNFBBhNKILIYQIslJ-3" target="Fq8KNFBBhNKILIYQIslJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fq8KNFBBhNKILIYQIslJ-3" value="输入文件对话框" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="Fq8KNFBBhNKILIYQIslJ-1">
+          <mxGeometry x="202.5" y="310" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fq8KNFBBhNKILIYQIslJ-4" value="输入文件路径" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="Fq8KNFBBhNKILIYQIslJ-1">
+          <mxGeometry x="206.5" y="390" width="167" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
