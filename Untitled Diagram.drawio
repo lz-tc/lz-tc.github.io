@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-05T07:14:25.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="P40EJe0a6kT0BG1e6IWn" version="15.4.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2021-10-05T07:21:45.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="wc1eX-xGmAhDn8Vei2OY" version="15.4.1" type="github" pages="15">
   <diagram id="LLjZN6TuRfKMKXZw8j3t" name="微信小程序端架构图">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -22,9 +22,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ocgOya-fiSMzZq-VLA_P-0" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;解码、采样、预处理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" parent="xxEicSY4sjZabshTGZnR-1" vertex="1">
-          <mxGeometry x="520" y="450" width="100" height="40" as="geometry" />
+          <mxGeometry x="520" y="455" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="unzTSt0biz2tywfNss-y-1" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;目标识别结果(JSON)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" parent="xxEicSY4sjZabshTGZnR-1" vertex="1">
+        <mxCell id="unzTSt0biz2tywfNss-y-1" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;结果返回&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" parent="xxEicSY4sjZabshTGZnR-1" vertex="1">
           <mxGeometry x="790" y="395" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3kTUMSO7v-Ukqla95tup-0" value="ONNX Runtime" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=14;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
@@ -34,7 +34,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3kTUMSO7v-Ukqla95tup-1" value="&lt;font face=&quot;times new roman&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;端&lt;br&gt;口&lt;br&gt;监&lt;br&gt;听&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
-          <mxGeometry x="440" y="380" width="40" height="90" as="geometry" />
+          <mxGeometry x="440" y="390" width="40" height="105" as="geometry" />
         </mxCell>
         <mxCell id="3kTUMSO7v-Ukqla95tup-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="xxEicSY4sjZabshTGZnR-1" source="3kTUMSO7v-Ukqla95tup-3" target="3kTUMSO7v-Ukqla95tup-4">
           <mxGeometry relative="1" as="geometry" />
@@ -48,11 +48,17 @@
         <mxCell id="3kTUMSO7v-Ukqla95tup-4" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;模型推理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
           <mxGeometry x="660" y="395" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3kTUMSO7v-Ukqla95tup-12" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;解码、采样、预处理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
-          <mxGeometry x="660" y="450" width="100" height="40" as="geometry" />
+        <mxCell id="3kTUMSO7v-Ukqla95tup-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="xxEicSY4sjZabshTGZnR-1" source="3kTUMSO7v-Ukqla95tup-12" target="3kTUMSO7v-Ukqla95tup-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3kTUMSO7v-Ukqla95tup-13" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;解码、采样、预处理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
-          <mxGeometry x="790" y="450" width="100" height="40" as="geometry" />
+        <mxCell id="3kTUMSO7v-Ukqla95tup-12" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;模型加载、模型解码&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
+          <mxGeometry x="660" y="455" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3kTUMSO7v-Ukqla95tup-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="xxEicSY4sjZabshTGZnR-1" source="3kTUMSO7v-Ukqla95tup-13" target="unzTSt0biz2tywfNss-y-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3kTUMSO7v-Ukqla95tup-13" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;JSON封装&lt;br&gt;Socket回调&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
+          <mxGeometry x="790" y="455" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
