@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-02T09:45:48.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="KTFBCiKqeINx3tdrASxm" version="15.4.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2021-10-05T07:14:25.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="P40EJe0a6kT0BG1e6IWn" version="15.4.1" type="github" pages="15">
   <diagram id="LLjZN6TuRfKMKXZw8j3t" name="微信小程序端架构图">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -12,20 +12,47 @@
       <root>
         <mxCell id="xxEicSY4sjZabshTGZnR-0" />
         <mxCell id="xxEicSY4sjZabshTGZnR-1" parent="xxEicSY4sjZabshTGZnR-0" />
-        <mxCell id="ojtkfb2L5HZaqJn4iYOs-0" value="&lt;font face=&quot;songti&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Nanodet模型推理&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
-          <mxGeometry x="430" y="340" width="530" height="270" as="geometry" />
+        <mxCell id="ojtkfb2L5HZaqJn4iYOs-0" value="&lt;font face=&quot;songti&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Nanodet模型推理&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="xxEicSY4sjZabshTGZnR-1" vertex="1">
+          <mxGeometry x="430" y="340" width="470" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="NhmkijG6HBmI7W7cR4t9-0" value="WebSocket&lt;br&gt;端口监听" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
-          <mxGeometry x="440" y="450" width="100" height="40" as="geometry" />
+        <mxCell id="NhmkijG6HBmI7W7cR4t9-0" value="WebSocket协议" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=14;" parent="xxEicSY4sjZabshTGZnR-1" vertex="1">
+          <mxGeometry x="520" y="520" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NhmkijG6HBmI7W7cR4t9-1" value="Base64图像数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
-          <mxGeometry x="550" y="450" width="100" height="40" as="geometry" />
+        <mxCell id="3kTUMSO7v-Ukqla95tup-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="xxEicSY4sjZabshTGZnR-1" source="ocgOya-fiSMzZq-VLA_P-0" target="3kTUMSO7v-Ukqla95tup-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ocgOya-fiSMzZq-VLA_P-0" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;解码、采样、预处理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
+        <mxCell id="ocgOya-fiSMzZq-VLA_P-0" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;解码、采样、预处理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" parent="xxEicSY4sjZabshTGZnR-1" vertex="1">
+          <mxGeometry x="520" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="unzTSt0biz2tywfNss-y-1" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;目标识别结果(JSON)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" parent="xxEicSY4sjZabshTGZnR-1" vertex="1">
+          <mxGeometry x="790" y="395" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3kTUMSO7v-Ukqla95tup-0" value="ONNX Runtime" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=14;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
+          <mxGeometry x="520" y="560" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3kTUMSO7v-Ukqla95tup-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="xxEicSY4sjZabshTGZnR-1" source="3kTUMSO7v-Ukqla95tup-1" target="3kTUMSO7v-Ukqla95tup-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3kTUMSO7v-Ukqla95tup-1" value="&lt;font face=&quot;times new roman&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;端&lt;br&gt;口&lt;br&gt;监&lt;br&gt;听&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
+          <mxGeometry x="440" y="380" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3kTUMSO7v-Ukqla95tup-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="xxEicSY4sjZabshTGZnR-1" source="3kTUMSO7v-Ukqla95tup-3" target="3kTUMSO7v-Ukqla95tup-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3kTUMSO7v-Ukqla95tup-3" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;Base64图像数据&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
+          <mxGeometry x="520" y="395" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3kTUMSO7v-Ukqla95tup-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="xxEicSY4sjZabshTGZnR-1" source="3kTUMSO7v-Ukqla95tup-4" target="unzTSt0biz2tywfNss-y-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3kTUMSO7v-Ukqla95tup-4" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;模型推理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
+          <mxGeometry x="660" y="395" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3kTUMSO7v-Ukqla95tup-12" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;解码、采样、预处理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
           <mxGeometry x="660" y="450" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="unzTSt0biz2tywfNss-y-1" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;目标识别结果(JSON)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
-          <mxGeometry x="770" y="450" width="100" height="40" as="geometry" />
+        <mxCell id="3kTUMSO7v-Ukqla95tup-13" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 13px&quot;&gt;解码、采样、预处理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=songti;fontSize=15;" vertex="1" parent="xxEicSY4sjZabshTGZnR-1">
+          <mxGeometry x="790" y="450" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
