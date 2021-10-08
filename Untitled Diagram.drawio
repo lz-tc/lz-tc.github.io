@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T03:07:57.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Zi69P9aRvK7Kp3B8b6_B" version="15.4.3" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2021-10-08T03:12:50.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="1lBsAxVN9Vq9td29-d3A" version="15.4.3" type="github" pages="18">
   <diagram id="LLjZN6TuRfKMKXZw8j3t" name="微信小程序端架构图">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1531,6 +1531,32 @@
         </mxCell>
         <mxCell id="iWkHwdaM8P_aLOWVRVAS-17" value="各指标颜色配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="lgBDxkI9iDF0hwqTn4X2-1">
           <mxGeometry x="432.5" y="360" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fY9KO7-nBeP2oogCnKGl" name="Page-18">
+    <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-0" />
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-1" parent="JEl4KhzArmJzMYtV8CBJ-0" />
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-2" value="地图定制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;arcSize=50;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
+          <mxGeometry x="290" y="80" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-3" value="地理底图选择" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
+          <mxGeometry x="295" y="150" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-4" value="专题数据选择" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
+          <mxGeometry x="295" y="220" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-5" value="地图配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
+          <mxGeometry x="295" y="290" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-6" value="地图存储" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
+          <mxGeometry x="295" y="360" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-7" value="地图定制结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;arcSize=50;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
+          <mxGeometry x="295" y="430" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
