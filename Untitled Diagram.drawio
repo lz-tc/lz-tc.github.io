@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T02:53:49.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="1YfyzM8riINCVhqFnZMX" version="15.4.3" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-10-08T02:58:23.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Aeu_Rg9fm3bEcUohW6Bh" version="15.4.3" type="github" pages="17">
   <diagram id="LLjZN6TuRfKMKXZw8j3t" name="微信小程序端架构图">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1459,6 +1459,17 @@
         </mxCell>
         <mxCell id="c_QD_fiDvHq0OSKzlU-E-24" value="要素符号配置结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=18;" vertex="1" parent="c_QD_fiDvHq0OSKzlU-E-1">
           <mxGeometry x="310" y="480" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aEZOG1Y-6z0T2yIYdeJC" name="Page-17">
+    <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="lgBDxkI9iDF0hwqTn4X2-0" />
+        <mxCell id="lgBDxkI9iDF0hwqTn4X2-1" parent="lgBDxkI9iDF0hwqTn4X2-0" />
+        <mxCell id="iWkHwdaM8P_aLOWVRVAS-0" value="统计符号配置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;arcSize=50;" vertex="1" parent="lgBDxkI9iDF0hwqTn4X2-1">
+          <mxGeometry x="300" y="100" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
