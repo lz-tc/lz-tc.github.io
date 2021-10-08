@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T03:12:50.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="1lBsAxVN9Vq9td29-d3A" version="15.4.3" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2021-10-08T03:15:05.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="7QnHL6drTMOIjLYDqBvE" version="15.4.3" type="github" pages="18">
   <diagram id="LLjZN6TuRfKMKXZw8j3t" name="微信小程序端架构图">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1540,23 +1540,65 @@
       <root>
         <mxCell id="JEl4KhzArmJzMYtV8CBJ-0" />
         <mxCell id="JEl4KhzArmJzMYtV8CBJ-1" parent="JEl4KhzArmJzMYtV8CBJ-0" />
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="JEl4KhzArmJzMYtV8CBJ-1" source="JEl4KhzArmJzMYtV8CBJ-2" target="JEl4KhzArmJzMYtV8CBJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JEl4KhzArmJzMYtV8CBJ-2" value="地图定制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;arcSize=50;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
           <mxGeometry x="290" y="80" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="JEl4KhzArmJzMYtV8CBJ-1" source="JEl4KhzArmJzMYtV8CBJ-3" target="JEl4KhzArmJzMYtV8CBJ-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JEl4KhzArmJzMYtV8CBJ-3" value="地理底图选择" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
           <mxGeometry x="295" y="150" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="JEl4KhzArmJzMYtV8CBJ-1" source="JEl4KhzArmJzMYtV8CBJ-4" target="JEl4KhzArmJzMYtV8CBJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JEl4KhzArmJzMYtV8CBJ-4" value="专题数据选择" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
           <mxGeometry x="295" y="220" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="JEl4KhzArmJzMYtV8CBJ-1" source="JEl4KhzArmJzMYtV8CBJ-5" target="JEl4KhzArmJzMYtV8CBJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JEl4KhzArmJzMYtV8CBJ-5" value="地图配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
           <mxGeometry x="295" y="290" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="JEl4KhzArmJzMYtV8CBJ-1" source="JEl4KhzArmJzMYtV8CBJ-6" target="JEl4KhzArmJzMYtV8CBJ-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JEl4KhzArmJzMYtV8CBJ-6" value="地图存储" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
           <mxGeometry x="295" y="360" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JEl4KhzArmJzMYtV8CBJ-7" value="地图定制结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;arcSize=50;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
-          <mxGeometry x="295" y="430" width="180" height="40" as="geometry" />
+          <mxGeometry x="290" y="430" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="JEl4KhzArmJzMYtV8CBJ-1" source="JEl4KhzArmJzMYtV8CBJ-8" target="JEl4KhzArmJzMYtV8CBJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-8" value="图表定制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;arcSize=50;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
+          <mxGeometry x="550" y="80" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="JEl4KhzArmJzMYtV8CBJ-1" source="JEl4KhzArmJzMYtV8CBJ-10" target="JEl4KhzArmJzMYtV8CBJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-10" value="专题数据选择" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
+          <mxGeometry x="555" y="170" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="JEl4KhzArmJzMYtV8CBJ-1" source="JEl4KhzArmJzMYtV8CBJ-11" target="JEl4KhzArmJzMYtV8CBJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-11" value="图表配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
+          <mxGeometry x="555" y="260" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="JEl4KhzArmJzMYtV8CBJ-1" source="JEl4KhzArmJzMYtV8CBJ-12" target="JEl4KhzArmJzMYtV8CBJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-12" value="地图存储" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
+          <mxGeometry x="555" y="360" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JEl4KhzArmJzMYtV8CBJ-13" value="图表定制结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=center;arcSize=50;" vertex="1" parent="JEl4KhzArmJzMYtV8CBJ-1">
+          <mxGeometry x="550" y="430" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
