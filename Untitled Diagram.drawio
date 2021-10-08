@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T02:52:21.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="BI1XICpHad7svTjvXrYR" version="15.4.3" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-10-08T02:53:49.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="1YfyzM8riINCVhqFnZMX" version="15.4.3" type="github" pages="16">
   <diagram id="LLjZN6TuRfKMKXZw8j3t" name="微信小程序端架构图">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1407,7 +1407,7 @@
         <mxCell id="c_QD_fiDvHq0OSKzlU-E-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="c_QD_fiDvHq0OSKzlU-E-1" source="c_QD_fiDvHq0OSKzlU-E-2" target="c_QD_fiDvHq0OSKzlU-E-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c_QD_fiDvHq0OSKzlU-E-2" value="地图配置" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=18;" vertex="1" parent="c_QD_fiDvHq0OSKzlU-E-1">
+        <mxCell id="c_QD_fiDvHq0OSKzlU-E-2" value="要素符号配置" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=18;" vertex="1" parent="c_QD_fiDvHq0OSKzlU-E-1">
           <mxGeometry x="310" y="60" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c_QD_fiDvHq0OSKzlU-E-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="c_QD_fiDvHq0OSKzlU-E-1" source="c_QD_fiDvHq0OSKzlU-E-3" target="c_QD_fiDvHq0OSKzlU-E-18">
@@ -1442,6 +1442,9 @@
         <mxCell id="c_QD_fiDvHq0OSKzlU-E-10" value="地级市" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="c_QD_fiDvHq0OSKzlU-E-7">
           <mxGeometry y="90" width="220" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="c_QD_fiDvHq0OSKzlU-E-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="c_QD_fiDvHq0OSKzlU-E-1" source="c_QD_fiDvHq0OSKzlU-E-18" target="c_QD_fiDvHq0OSKzlU-E-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c_QD_fiDvHq0OSKzlU-E-18" value="底图色彩方案选择" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;align=center;" vertex="1" parent="c_QD_fiDvHq0OSKzlU-E-1">
           <mxGeometry x="320" y="330" width="140" height="120" as="geometry" />
         </mxCell>
@@ -1454,7 +1457,7 @@
         <mxCell id="c_QD_fiDvHq0OSKzlU-E-21" value="背景颜色" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;" vertex="1" parent="c_QD_fiDvHq0OSKzlU-E-18">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="c_QD_fiDvHq0OSKzlU-E-24" value="地图配置" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=18;" vertex="1" parent="c_QD_fiDvHq0OSKzlU-E-1">
+        <mxCell id="c_QD_fiDvHq0OSKzlU-E-24" value="要素符号配置结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=18;" vertex="1" parent="c_QD_fiDvHq0OSKzlU-E-1">
           <mxGeometry x="310" y="480" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
